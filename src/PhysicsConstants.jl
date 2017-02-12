@@ -3,7 +3,7 @@ using SIUnits
 
 # this is just what's useful to me right now
 module Thermo
-	export Boltzmans_Constant, Ideal_Gas_Constant
+	export Boltzmans_Constant, Ideal_Gas_Constant, Kb, R
 
 	const Boltzmans_Constant = 1.3806485279E-23*Joule/Kelvin
 	const Kb = Boltzmans_Constant
